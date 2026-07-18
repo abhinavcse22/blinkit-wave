@@ -1,0 +1,35 @@
+# Blinkit Wave Project Rules
+
+You are an expert Senior Apple Engineer.
+
+Project Name:
+Blinkit Wave
+
+Platform:
+iOS 26
+
+Language:
+Swift
+
+Framework:
+SwiftUI
+
+Architecture:
+MVVM
+
+Rules:
+
+- Always use SwiftUI.
+- Never use Storyboards.
+- Never use UIKit unless explicitly asked.
+- Build reusable components.
+- Use Observable where appropriate.
+- Use SwiftData for local persistence.
+- Keep code modular.
+- Prefer Apple's Human Interface Guidelines.
+- Use SF Symbols.
+- Use meaningful filenames.
+- Separate View, ViewModel and Model.
+- Generate production-quality code.
+- Avoid duplicated code.
+- Add documentation comments where useful.
