@@ -35,11 +35,6 @@
 			path = BlinkitWave;
 			sourceTree = "<group>";
 		};
-		24DA536A300BF16900C7F350 /* Core */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ../../Core;
-			sourceTree = "<group>";
-		};
 		24DA534C300BF16800C7F34F /* BlinkitWaveTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BlinkitWaveTests;
@@ -48,6 +43,11 @@
 		24DA5356300BF16800C7F34F /* BlinkitWaveUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = BlinkitWaveUITests;
+			sourceTree = "<group>";
+		};
+		24DA536A300BF16900C7F350 /* ../../Core */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ../../Core;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -81,7 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				24DA533E300BF16500C7F34F /* BlinkitWave */,
-				24DA536A300BF16900C7F350 /* Core */,
+				24DA536A300BF16900C7F350 /* ../../Core */,
 				24DA534C300BF16800C7F34F /* BlinkitWaveTests */,
 				24DA5356300BF16800C7F34F /* BlinkitWaveUITests */,
 				24DA533D300BF16500C7F34F /* Products */,
@@ -115,7 +115,7 @@
 			);
 			fileSystemSynchronizedGroups = (
 				24DA533E300BF16500C7F34F /* BlinkitWave */,
-				24DA536A300BF16900C7F350 /* Core */,
+				24DA536A300BF16900C7F350 /* ../../Core */,
 			);
 			name = BlinkitWave;
 			packageProductDependencies = (

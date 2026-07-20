@@ -5,7 +5,6 @@ enum AppTab: String, Hashable, Codable, CaseIterable, Sendable {
 
     case home
     case cart
-    case wave
     case wallet
     case settings
 
@@ -16,8 +15,6 @@ enum AppTab: String, Hashable, Codable, CaseIterable, Sendable {
             return .home
         case .cart:
             return .cart
-        case .wave:
-            return .waveRecommendation
         case .wallet:
             return .wallet
         case .settings:

@@ -51,7 +51,6 @@ private extension AppTab {
         switch self {
         case .home: return "Home"
         case .cart: return "Cart"
-        case .wave: return "Wave"
         case .wallet: return "Wallet"
         case .settings: return "Settings"
         }
@@ -61,7 +60,6 @@ private extension AppTab {
         switch self {
         case .home: return "house.fill"
         case .cart: return "cart.fill"
-        case .wave: return "waveform.path"
         case .wallet: return "wallet.pass.fill"
         case .settings: return "gearshape.fill"
         }

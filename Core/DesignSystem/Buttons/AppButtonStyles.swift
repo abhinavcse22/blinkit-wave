@@ -8,7 +8,7 @@ struct AppPrimaryButtonStyle: ButtonStyle {
 
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
-            .appButtonText(color: .white)
+            .appButtonText(color: .black.opacity(isEnabled ? 1 : 0.4))
             .frame(maxWidth: .infinity)
             .padding(.vertical, AppSpacing.sm + 2)
             .padding(.horizontal, AppSpacing.md)

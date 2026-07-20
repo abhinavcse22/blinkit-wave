@@ -10,53 +10,23 @@ struct AppRouter {
     static func view(for destination: AppDestination) -> some View {
         switch destination {
         case .home:
-            DestinationPlaceholderView(
-                title: "Home",
-                systemImage: "house.fill"
-            )
+            HomeView()
         case .product(let productID):
-            DestinationPlaceholderView(
-                title: "Product",
-                subtitle: productID,
-                systemImage: "bag.fill"
-            )
+            ProductDetailView(productID: productID)
         case .cart:
-            DestinationPlaceholderView(
-                title: "Cart",
-                systemImage: "cart.fill"
-            )
+            CartView()
         case .waveRecommendation:
-            DestinationPlaceholderView(
-                title: "Wave Recommendation",
-                systemImage: "waveform.path"
-            )
+            WaveRecommendationView()
         case .scheduledWave(let waveID):
-            DestinationPlaceholderView(
-                title: "Scheduled Wave",
-                subtitle: waveID ?? "All waves",
-                systemImage: "calendar.badge.clock"
-            )
+            WaveDetailsView(waveID: waveID)
         case .tracking(let orderID):
-            DestinationPlaceholderView(
-                title: "Tracking",
-                subtitle: orderID,
-                systemImage: "location.fill"
-            )
+            TrackingView(orderID: orderID)
         case .wallet:
-            DestinationPlaceholderView(
-                title: "Wallet",
-                systemImage: "wallet.pass.fill"
-            )
+            WalletView()
         case .savings:
-            DestinationPlaceholderView(
-                title: "Savings",
-                systemImage: "indianrupeesign.circle.fill"
-            )
+            SavingsView()
         case .settings:
-            DestinationPlaceholderView(
-                title: "Settings",
-                systemImage: "gearshape.fill"
-            )
+            SettingsView()
         }
     }
 }

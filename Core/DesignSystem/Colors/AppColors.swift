@@ -8,8 +8,8 @@ enum AppColors {
 
     // MARK: Brand
 
-    static let primary = AppColorPalette.green500
-    static let secondary = AppColorPalette.green700
+    static let primary = AppColorPalette.blinkitYellow
+    static let secondary = AppColorPalette.blinkitBlack
     static let accent = AppColorPalette.amber400
 
     // MARK: Surfaces
@@ -37,6 +37,10 @@ enum AppColors {
 
 /// Internal palette. Use `AppColors` semantic tokens in feature code.
 enum AppColorPalette {
+
+    // Blinkit Brand
+    static let blinkitYellow = Color(red: 0.984, green: 0.804, blue: 0.024)
+    static let blinkitBlack = Color(red: 0.07, green: 0.07, blue: 0.08)
 
     // Greens
     static let green500 = Color(red: 0.14, green: 0.52, blue: 0.22)
